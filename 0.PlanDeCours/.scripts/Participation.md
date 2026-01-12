@@ -1,4 +1,4 @@
-# Participation au 12-01-2026 21:29
+# Participation au 12-01-2026 21:30
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -32,7 +32,7 @@
 | 13 | [300151466](../300151466/README.md) :point_right: [remplir_ici_14](https://github.com/remplir_ici_14) <image src='https://avatars0.githubusercontent.com/u/205994792?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 14 | [300151556](../300151556/README.md) :point_right: [Rabia-777](https://github.com/Rabia-777) <image src='https://avatars0.githubusercontent.com/u/231781132?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 15 | [300151608](../300151608/README.md) :point_right: [205994799](https://github.com/205994799) <image src='https://avatars0.githubusercontent.com/u/206000307?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| 16 | [300152131](../300152131/README.md) :point_right: [el-calvino](https://github.com/el-calvino) <image src='https://avatars0.githubusercontent.com/u/205994734?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
+| 16 | [300152131](../300152131/README.md) :point_right: [el-calvino](https://github.com/el-calvino) <image src='https://avatars0.githubusercontent.com/u/205994709?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 17 | [300152260](../300152260/README.md) :point_right: [Hannibalcarthage](https://github.com/Hannibalcarthage) <image src='https://avatars0.githubusercontent.com/u/195238262?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 18 | [300152410](../300152410/README.md) :point_right: [syphax25](https://github.com/syphax25) <image src='https://avatars0.githubusercontent.com/u/212047331?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | :abacus: | \$\\frac{2}{19}\$ = 10.53% | \$\displaystyle\sum_{i=1}^{19} s_i\$ = 2 |
