@@ -1,0 +1,21 @@
+	Image	Nom	Nom d’utilisateur
+ID défini par l’org.	Rôle	Date de l’accès le plus récent
+	Afficher le profil de Mohamed Reda El Youssoufi	El Youssoufi, Mohamed Reda Mohamed Reda El Youssoufi est en ligne	300135538	300135538	Student	
+	Afficher le profil de Khalef Laggab	Laggab, Khalef Khalef Laggab est en ligne	300146112	300146112	Student	
+	Afficher le profil de Aymen Harkati	Harkati, Aymen Aymen Harkati est en ligne	300146676	300146676	Student	janv. 12 2026 09 h 33
+	Afficher le profil de Ouail Gacem	Gacem, Ouail	300148094	300148094	Student	
+	Afficher le profil de Mohand Said Kemiche	Kemiche, Mohand Said	300150268	300150268	Student	
+	Afficher le profil de Tarik Tidjet	Tidjet, Tarik Tarik Tidjet est en ligne	300150275	300150275	Student	janv. 12 2026 09 h 13
+	Afficher le profil de Youba Bouanani	Bouanani, Youba Youba Bouanani est en ligne	300150296	300150296	Student	
+	Afficher le profil de Ismail Trache	Trache, Ismail Ismail Trache est en ligne	300150395	300150395	Student	
+	Afficher le profil de Hani Aghilas Damouche	Damouche, Hani Aghilas Hani Aghilas Damouche est en ligne	300150557	300150557	Student	
+	Afficher le profil de Syphax Ouadfel	Ouadfel, Syphax	300151233	300151233	Student	
+	Afficher le profil de Abdelhakim Sebai	Sebai, Abdelhakim	300151258	300151258	Student	
+	Afficher le profil de Sara Hocine	Hocine, Sara	300151347	300151347	Student	
+	Afficher le profil de Justin Sandy	Sandy, Justin Justin Sandy est en ligne	300151403	300151403	Student	janv. 12 2026 09 h 07
+	Afficher le profil de Adel Bennacer	Bennacer, Adel	300151466	300151466	Student	
+	Afficher le profil de Kahina Zerkani	Zerkani, Kahina	300151556	300151556	Student	
+	Afficher le profil de Mohammed Aiche	Aiche, Mohammed	300151608	300151608	Student	
+	Afficher le profil de Calvin Kiegaing Kouam	Kiegaing Kouam, Calvin Calvin Kiegaing Kouam est en ligne	300152131	300152131	Student	janv. 12 2026 06 h 18
+	Afficher le profil de Mohib Eddine Bekkai	Bekkai, Mohib Eddine	300152260	300152260	Student	
+	Afficher le profil de Imad Boudeuf	Boudeuf, Imad	300152410	300152410	Student	
