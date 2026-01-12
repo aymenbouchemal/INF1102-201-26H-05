@@ -26,30 +26,30 @@ $ETUDIANTS = @(
 
 # GitHub usernames correspondants
 $IDS = @(
-    'taylor123marc'       # 300135538 → 2e liste
-    'emeraudesantu'       # 300146112 → pas trouvé dans anciennes listes, à vérifier
+    'RedaYousfi'          # 300135538
+    'laggabkhalef'        # 300146112
     'harkatiaymen'        # 300146676 → 1ere liste
     'ouailg28'            # 300148094 → 1ere liste
     'kemiche06'           # 300150268 → 2e liste
     'remplir_ici_6'       # 300150275 → pas trouvé
     'lounasallouti1'      # 300150296 → 2e liste
-    '205994785'            # 300150395 → 2e liste (IDS manquant exact, utiliser username précédent ou placeholder)
-    'remplir_ici_9'       # 300150557 → pas trouvé
+    'ismailtrache'        # 300150395
+    'hanichou'            # 300150557 → pas trouvé
     'jessmaud'            # 300151233 → 2e liste
     'hakimsb'             # 300151258 → 1ere liste
     'sarahocine'          # 300151347 → 1ere liste
-    'smailikh'            # 300151403 → 1ere liste
+    'justinsandy99'       # 300151403
     'remplir_ici_14'      # 300151466 → pas trouvé
     'Rabia-777'           # 300151556 → 1ere liste
-    '205994799'            # 300151608 → 2e liste (IDS manquant exact, utiliser username précédent ou placeholder)
-    'remplir_ici_17'      # 300152131 → pas trouvé
+    '205994799'           # 300151608 → 2e liste (IDS manquant exact, utiliser username précédent ou placeholder)
+    'el-calvino'          # 300152131
     'Hannibalcarthage'    # 300152260 → 1ere liste
     'syphax25'            # 300152410 → 2e liste
 )
 
 # GitHub avatars correspondants
 $AVATARS = @(
-    200685761    # 300135538 → 2e liste
+    133056385    # 300135538 → 2e liste
     205994773    # 300146112 → pas trouvé exact, utiliser placeholder
     211595997    # 300146676 → 1ere liste
     212054634    # 300148094 → 1ere liste
