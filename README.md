@@ -18,6 +18,7 @@ INF1102 (201) - Programmation de systèmes
 |  :hash: | Date  | Cours                              | 🎉 Participations                   |
 |---------|-------|:-----------------------------------|:------------------------------------|
 
+
 ### :abacus: Évaluation
 
 - [ ]  Stratégies et pondération de l’évaluation
@@ -37,6 +38,23 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 
 | Période | Sem | Activités / Thèmes | Ressources/module |  Résultat d’apprentissage visé |
 |-|-|-|-|-|
+| 12-Jan | 1️⃣ |
+| 19-Jan | 2️⃣ |
+| 26-Jan | 3️⃣ |
+| 02-Feb | 4️⃣ |
+| 09-Feb | 5️⃣ |
+| 16-Feb | 6️⃣ |
+| 23-Feb | 📚 |
+| 02-Mar
+| 09-Mar
+| 16-Mar
+| 23-Mar
+| 30-Mar
+| 06-Apr
+| 13-Apr
+| 20-Apr
+
+
 
 ---
 
