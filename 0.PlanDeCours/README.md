@@ -17,3 +17,4 @@
 
 # References
 
+[Utiliser github CLI](https://github.com/CollegeBoreal/INF1042-203-25A-04/tree/main/2.IDE)
