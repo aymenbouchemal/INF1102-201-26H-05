@@ -1,4 +1,4 @@
-# INF1102-201-26H-05 (Lundi)
+# INF1102-201-26H-05 (Vendredi)
 
 INF1102 (201) - Programmation de systèmes
 
