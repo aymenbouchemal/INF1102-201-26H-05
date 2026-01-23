@@ -1,4 +1,5 @@
 resource "proxmox_virtual_environment_vm" "linux_vm" {
+  vm_id    = 098957
   name      = "linux-vm-01"
   node_name = var.node_name
 
