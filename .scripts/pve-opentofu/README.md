@@ -1,5 +1,213 @@
 
 
+Alright, let’s do this cleanly and *practically* 🙂
+OpenTofu works **almost exactly like Terraform**, and Proxmox VE 7 is well-supported via the **Telmate Proxmox provider**.
+
+Below is a **minimal, working, PVE-7-friendly workflow**.
+
+---
+
+## 0️⃣ Prereqs on Proxmox (PVE 7)
+
+### ✔ Enable API access
+
+You need either:
+
+* a **user + password**, or
+* **API token** (recommended)
+
+**Recommended (API token):**
+
+```bash
+pveum user add tofu@pve
+pveum aclmod / -user tofu@pve -role Administrator
+pveum user token add tofu@pve opentofu --privsep 0
+```
+
+Save:
+
+* **Token ID**: `tofu@pve!opentofu`
+* **Token Secret**: (shown once)
+
+---
+
+## 1️⃣ Install OpenTofu
+
+On your workstation:
+
+```bash
+curl -fsSL https://get.opentofu.org/install-opentofu.sh | sh
+```
+
+Verify:
+
+```bash
+tofu version
+```
+
+---
+
+## 2️⃣ Create project structure
+
+```bash
+mkdir pve-opentofu
+cd pve-opentofu
+```
+
+```bash
+touch main.tf variables.tf terraform.tfvars
+```
+
+---
+
+## 3️⃣ Provider configuration (`main.tf`)
+
+```hcl
+terraform {
+  required_providers {
+    proxmox = {
+      source  = "telmate/proxmox"
+      version = ">= 2.9.0"
+    }
+  }
+}
+
+provider "proxmox" {
+  pm_api_url      = "https://PVE_IP:8006/api2/json"
+  pm_api_token_id = var.pm_token_id
+  pm_api_token_secret = var.pm_token_secret
+  pm_tls_insecure = true
+}
+```
+
+---
+
+## 4️⃣ VM resource (Cloud-Init VM)
+
+Example **Ubuntu VM** cloned from a template:
+
+```hcl
+resource "proxmox_vm_qemu" "vm1" {
+  name        = "tofu-vm01"
+  target_node = "pve"
+  clone       = "ubuntu-2204-template"
+
+  cores   = 2
+  sockets = 1
+  memory  = 2048
+
+  scsihw = "virtio-scsi-pci"
+
+  disk {
+    size    = "20G"
+    type    = "scsi"
+    storage = "local-lvm"
+  }
+
+  network {
+    model  = "virtio"
+    bridge = "vmbr0"
+  }
+
+  os_type = "cloud-init"
+
+  ipconfig0 = "ip=dhcp"
+
+  ciuser  = "ubuntu"
+  sshkeys = file("~/.ssh/id_rsa.pub")
+}
+```
+
+---
+
+## 5️⃣ Variables (`variables.tf`)
+
+```hcl
+variable "pm_token_id" {
+  type = string
+}
+
+variable "pm_token_secret" {
+  type      = string
+  sensitive = true
+}
+```
+
+---
+
+## 6️⃣ Secrets (`terraform.tfvars`)
+
+```hcl
+pm_token_id     = "tofu@pve!opentofu"
+pm_token_secret = "PASTE_SECRET_HERE"
+```
+
+⚠️ **Do not commit this file**
+
+---
+
+## 7️⃣ Initialize & apply
+
+```bash
+tofu init
+tofu plan
+tofu apply
+```
+
+Type `yes`.
+
+🎉 VM will appear in Proxmox.
+
+---
+
+## 8️⃣ Common gotchas (PVE 7 specific)
+
+### ❌ “Clone source does not exist”
+
+➡ You **must create a template first**
+
+Example:
+
+```bash
+qm create 9000 --name ubuntu-2204-template
+qm set 9000 --scsi0 local-lvm:0,import-from=/var/lib/vz/template/iso/jammy-server-cloudimg-amd64.img
+qm template 9000
+```
+
+---
+
+### ❌ Cloud-init not working
+
+Make sure:
+
+```bash
+qm set VMID --ide2 local-lvm:cloudinit
+```
+
+---
+
+## 9️⃣ Advanced (when you’re ready)
+
+You can:
+
+* auto-generate **MAC addresses**
+* attach **PCI passthrough**
+* define **multiple disks**
+* integrate with **Ansible**
+* manage **LXC containers**
+* create **entire Proxmox clusters declaratively**
+
+---
+
+## TL;DR
+
+* OpenTofu = Terraform replacement ✅
+* Telmate Proxmox provider works perfectly on **PVE 7**
+* Best approach: **cloud-init template + clone**
+* API token is safer than passwords
+
+---
+
 ```bash
 pveum user add tofu@pve
 pveum aclmod / -user tofu@pve -role Administrator
