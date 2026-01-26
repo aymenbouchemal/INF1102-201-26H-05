@@ -1,19 +1,3 @@
-terraform {
-  required_providers {
-    proxmox = {
-      source  = "telmate/proxmox"
-      version = ">= 2.9.0"
-    }
-  }
-}
-
-provider "proxmox" {
-  pm_api_url      = "https://10.7.237.16:8006/api2/json"
-  pm_api_token_id = var.pm_token_id
-  pm_api_token_secret = var.pm_token_secret
-  pm_tls_insecure = true
-}
-
 resource "proxmox_vm_qemu" "vm1" {
   name        = "tofu-vm01"
   target_node = "labinfo"
@@ -38,9 +22,16 @@ resource "proxmox_vm_qemu" "vm1" {
 
   os_type = "cloud-init"
 
-  ipconfig0 = "ip=dhcp"
+  # ipconfig0 = "ip=dhcp"
+  ipconfig0 = "ip=10.7.237.193/23,gw=10.7.237.1"
+  nameserver = "10.7.237.3"
+
 
   ciuser  = "ubuntu"
-  sshkeys = file("~/.ssh/b300098957@ramena.pub")
+  sshkeys = <<EOF
+   ${file("~/.ssh/github.com-setrar.pub")}
+   ${file("~/.ssh/b300098957@ramena.pub")}
+  EOF
+  # sshkeys = file("~/.ssh/b300098957@ramena.pub")
 }
 
