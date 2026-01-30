@@ -1,4 +1,4 @@
-# Participation au 30-01-2026 18:19
+# Participation au 30-01-2026 18:24
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -19,7 +19,7 @@
 | 0 | [300135538](../300135538/RAPPORT.ipynb) :point_right: [RedaYousfi](https://github.com/RedaYousfi) <image src='https://avatars0.githubusercontent.com/u/133056385?s=460&v=4' width=20 height=20></image> | :x: |
 | 1 | [300141570](../300141570/RAPPORT.ipynb) :point_right: [swberk](https://github.com/swberk) <image src='https://avatars0.githubusercontent.com/u/66260193?s=460&v=4' width=20 height=20></image> | :x: |
 | 2 | [300146112](../300146112/RAPPORT.ipynb) :point_right: [laggabkhalef](https://github.com/laggabkhalef) <image src='https://avatars0.githubusercontent.com/u/205994703?s=460&v=4' width=20 height=20></image> | :x: |
-| 3 | [300146676](../300146676/RAPPORT.ipynb) :point_right: [harkatiaymen](https://github.com/harkatiaymen) <image src='https://avatars0.githubusercontent.com/u/211595997?s=460&v=4' width=20 height=20></image> | :x: |
+| 3 | [300146676](../300146676/RAPPORT.ipynb) :point_right: [harkatiaymen](https://github.com/harkatiaymen) <image src='https://avatars0.githubusercontent.com/u/211595997?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 4 | [300148094](../300148094/RAPPORT.ipynb) :point_right: [ouailg28](https://github.com/ouailg28) <image src='https://avatars0.githubusercontent.com/u/212054634?s=460&v=4' width=20 height=20></image> | :x: |
 | 5 | [300150268](../300150268/RAPPORT.ipynb) :point_right: [kemiche06](https://github.com/kemiche06) <image src='https://avatars0.githubusercontent.com/u/207268490?s=460&v=4' width=20 height=20></image> | :x: |
 | 6 | [300150275](../300150275/RAPPORT.ipynb) :point_right: [tarik-n](https://github.com/tarik-n) <image src='https://avatars0.githubusercontent.com/u/205994588?s=460&v=4' width=20 height=20></image> | :x: |
@@ -36,4 +36,4 @@
 | 17 | [300152131](../300152131/RAPPORT.ipynb) :point_right: [el-calvino](https://github.com/el-calvino) <image src='https://avatars0.githubusercontent.com/u/205994709?s=460&v=4' width=20 height=20></image> | :x: |
 | 18 | [300152260](../300152260/RAPPORT.ipynb) :point_right: [bekkai-mohibb](https://github.com/bekkai-mohibb) <image src='https://avatars0.githubusercontent.com/u/212179557?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 19 | [300152410](../300152410/RAPPORT.ipynb) :point_right: [imadboudeuf](https://github.com/imadboudeuf) <image src='https://avatars0.githubusercontent.com/u/205994834?s=460&v=4' width=20 height=20></image> | :x: |
-| :abacus: | \$\\frac{5}{20}\$ = 25% | \$\displaystyle\sum_{i=1}^{20} s_i\$ = 5 |
+| :abacus: | \$\\frac{6}{20}\$ = 30% | \$\displaystyle\sum_{i=1}^{20} s_i\$ = 6 |
