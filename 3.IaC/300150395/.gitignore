@@ -1,0 +1,33 @@
+# Fichiers sensibles OpenTofu / Terraform
+*.tfvars
+*.tfvars.json
+
+# Dossier d'état local
+.terraform/
+.terraform.lock.hcl
+
+# Fichiers d'état
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Logs
+crash.log
+crash.*.log
+
+# Fichiers système Windows / éditeurs
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+~$*
+*.swp
+
+# VS Code
+.vscode/
+
+# SSH keys
+*.pem
+*.key
+
