@@ -1,4 +1,4 @@
-# Participation au 30-01-2026 16:15
+# Participation au 30-01-2026 16:33
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -17,7 +17,7 @@
 |:hash:| Boréal :id:                | :id:.md    |
 |------|----------------------------|------------|
 | 0 | [300135538](../300135538.md) :point_right: [RedaYousfi](https://github.com/RedaYousfi) <image src='https://avatars0.githubusercontent.com/u/133056385?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
-| 1 | [300141570](../300141570.md) :point_right: [swberk](https://github.com/swberk) <image src='https://avatars0.githubusercontent.com/u/66260193?s=460&v=4' width=20 height=20></image> | :x: |
+| 1 | [300141570](../300141570.md) :point_right: [swberk](https://github.com/swberk) <image src='https://avatars0.githubusercontent.com/u/66260193?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 2 | [300146112](../300146112.md) :point_right: [laggabkhalef](https://github.com/laggabkhalef) <image src='https://avatars0.githubusercontent.com/u/205994703?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 3 | [300146676](../300146676.md) :point_right: [harkatiaymen](https://github.com/harkatiaymen) <image src='https://avatars0.githubusercontent.com/u/211595997?s=460&v=4' width=20 height=20></image> | :x: |
 | 4 | [300148094](../300148094.md) :point_right: [ouailg28](https://github.com/ouailg28) <image src='https://avatars0.githubusercontent.com/u/212054634?s=460&v=4' width=20 height=20></image> | :x: |
