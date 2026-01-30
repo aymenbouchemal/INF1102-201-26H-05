@@ -83,8 +83,8 @@ $PROXMOX_GROUP_2 = $PROXMOX_SERVERS[1]
 # --------------------------------------
 
 $TOFU_SECRETS = @(
-"4fa24fc3-bd8c-4916-ba6e-09a8aecc3b00"
-"f728d095-1506-490f-81b1-ecdafdfb8ef9"
+"f2097a3c-f9f0-4558-9a43-5cd0ae718abe"
+"1cde2cfc-e100-47b9-9ee2-591ed83cfb8e"
 )
 
 $TOFU_SECRET_GROUP_1 = $TOFU_SECRETS[0] 

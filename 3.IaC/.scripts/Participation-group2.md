@@ -21,7 +21,7 @@
 
 | TOFU Credentials                                    | :closed_lock_with_key: Secret |
 |-----------------------------------------------------|------------------|
-| tofu@pve!opentofu                                   | f728d095-1506-490f-81b1-ecdafdfb8ef9   |
+| tofu@pve!opentofu                                   | 1cde2cfc-e100-47b9-9ee2-591ed83cfb8e   |
 
 
 ## :a: Présence
