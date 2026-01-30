@@ -1,5 +1,6 @@
+<img src="images/Devops1.jpeg" width="50%">
 
-<img images.jpg width='50%' height='50%' > </img>
+
 
 
 
