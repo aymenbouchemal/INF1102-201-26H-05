@@ -59,3 +59,6 @@ Le déroulement peut être modifié au besoin. La personne étudiante sera avis�
 ---
 
 # :books: References
+
+
+- [ ] [LinkedIn Carreer Hub: Proxmox Virtual Environment Essential Training Using Proxmox VE](www.linkedin.com/learning/proxmox-virtual-environment-essential-training)
