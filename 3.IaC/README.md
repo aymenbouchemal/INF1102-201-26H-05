@@ -458,12 +458,16 @@ Type `yes`.
 
 #### 8️⃣ Test VM
 
+- [ ] 🐧 Linux
+
 ```lua
 ssh -i ~/.ssh/ma_cle.pk \
   -o StrictHostKeyChecking=no \
   -o UserKnownHostsFile=/tmp/ssh_known_hosts_empty \
   ubuntu@10.7.237.xxx
 ```
+
+- [ ] 🪟 Powershell
 
 ```powershell
 ssh -i ~/.ssh/ma_cle.pk `
